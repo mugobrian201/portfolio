@@ -15,7 +15,7 @@ The projects cover diverse domains including real estate, air quality forecastin
 - **Other**: Time series resampling, timezone handling, hyperparameter tuning, and interpreting model coefficients/importances.
 
 ## Projects
-
+https://preview.redd.it/mexico-city-mean-price-of-a-house-v0-s7g298x6f6qa1.png?auto=webp&s=97023eb4bda17c7a56226079df4db78ec855c57f
 ### Project 1: What Drives Real Estate Prices in Mexico? A Data-Driven Analysis
 
 
