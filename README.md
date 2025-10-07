@@ -15,12 +15,13 @@ The projects cover diverse domains including real estate, air quality forecastin
 - **Other**: Time series resampling, timezone handling, hyperparameter tuning, and interpreting model coefficients/importances.
 
 ## Projects
-https://preview.redd.it/mexico-city-mean-price-of-a-house-v0-s7g298x6f6qa1.png?auto=webp&s=97023eb4bda17c7a56226079df4db78ec855c57f
 ### Project 1: What Drives Real Estate Prices in Mexico? A Data-Driven Analysis
-
-
-
-
+<grok:render type="render_searched_image">
+<argument name="image_id">3</argument>
+<argument name="caption">"A map illustrating mean house prices in Mexico City, highlighting geographic variations in real estate values."</argument>
+<argument name="align">"LEFT"</argument>
+<argument name="size">"SMALL"</argument>
+</grok:render>
 This project investigates the key factors influencing house prices in Mexico, focusing on property size (surface_covered_in_m2) and location (latitude, longitude, and states). The goal was to determine whether location or size has a greater impact on prices (price_aprox_usd).
 
 #### Key Steps:
