@@ -1,27 +1,45 @@
-Data Science Portfolio
-👋 Introduction
 # Data Science Portfolio
+👋 Introduction
 
 Welcome to my Data Science Portfolio! This GitHub repository showcases four projects that highlight my skills in data analysis, machine learning, visualization, and predictive modeling. All datasets used in these projects were sourced from Kaggle. Each project demonstrates a complete workflow, from data cleaning and exploratory data analysis (EDA) to model building and interpretation.
 
 The projects cover diverse domains including real estate, air quality forecasting, and disaster risk assessment. They emphasize practical applications, skill-building in Python libraries, and real-world impact. Feel free to explore the code, notebooks, and datasets in their respective folders.
 
+
 ## Skills Demonstrated
-- **Data Handling & Cleaning**: Pandas, NumPy, handling missing values, outliers, and time series data.
-- **Visualization**: Matplotlib, Seaborn, Plotly for interactive plots, histograms, boxplots, scatter plots, and bar charts.
-- **Machine Learning**: Linear Regression, Logistic Regression, Decision Trees, AR/ARMA models using Scikit-learn and Statsmodels.
-- **Feature Engineering**: Creating lag features, price per unit calculations, encoding categorical variables.
-- **Model Evaluation**: Metrics like MAE, accuracy, residuals analysis, validation curves, and walk-forward validation.
-- **Other**: Time series resampling, timezone handling, hyperparameter tuning, and interpreting model coefficients/importances.
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&style=flat-square)
+
+📊 Data Handling & Cleaning
+Efficiently processed and prepared datasets by addressing missing values, outliers, and time series data for robust analysis.
+Pandas, NumPy, Time Series Resampling, Outlier Removal
+
+📈 Visualization
+Create insightful and interactive visualizations, including histograms, boxplots, scatter plots, and bar charts to communicate data trends effectively.
+Matplotlib, Seaborn, Plotly Express, Scatter Mapbox
+
+🤖 Machine Learning
+Develop predictive models using supervised and time series algorithms, with a focus on iterative improvement and validation.
+Linear Regression, Logistic Regression, Decision Trees, AR/ARMA (Scikit-learn, Statsmodels)
+
+🔧 Feature Engineering
+Enhance model performance through techniques like lag feature creation, price per unit calculations, and categorical encoding.
+Lag Features, Price per m², OneHotEncoder, OrdinalEncoder
+
+📏 Model Evaluation
+Assess model performance using metrics like Mean Absolute Error (MAE), accuracy, residuals analysis, and walk-forward validation.
+MAE, Accuracy Score, Residuals Analysis, Validation Curves
+
+⚙️ Other
+Apply advanced techniques such as timezone handling, hyperparameter tuning, and model interpretation to solve real-world problems.
+Timezone Handling (pytz), Hyperparameter Tuning, Gini Importances, Coefficient Analysis
+
+
 
 ## Projects
 ### Project 1: What Drives Real Estate Prices in Mexico? A Data-Driven Analysis
-<grok:render type="render_searched_image">
-<argument name="image_id">3</argument>
-<argument name="caption">"A map illustrating mean house prices in Mexico City, highlighting geographic variations in real estate values."</argument>
-<argument name="align">"LEFT"</argument>
-<argument name="size">"SMALL"</argument>
-</grok:render>
+
 This project investigates the key factors influencing house prices in Mexico, focusing on property size (surface_covered_in_m2) and location (latitude, longitude, and states). The goal was to determine whether location or size has a greater impact on prices (price_aprox_usd).
 
 #### Key Steps:
